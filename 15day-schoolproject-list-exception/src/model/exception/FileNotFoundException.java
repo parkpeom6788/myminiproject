@@ -1,0 +1,11 @@
+package model.exception;
+
+public class FileNotFoundException extends Exception {
+	private static final long serialVersionUID = 2574557184495740764L;
+	public FileNotFoundException() {
+		super();
+	}
+	public FileNotFoundException(String message) {
+		super(message);
+	}
+}
